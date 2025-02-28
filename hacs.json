@@ -1,5 +1,5 @@
 {
   "name": "My notification cards",
-  "render_readme": false,
-  "fil_name": "notifications.card.js"
+  "filename": "notifications.card.js",
+  "content_in_root": true
 }
