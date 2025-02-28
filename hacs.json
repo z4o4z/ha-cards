@@ -1,4 +1,5 @@
 {
-  "name": "My custom cards",
-  "render_readme": false
+  "name": "My notification cards",
+  "render_readme": false,
+  "fil_name": "notifications.card.js"
 }
