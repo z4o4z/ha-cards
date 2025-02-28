@@ -44,23 +44,21 @@ class NotificationsCard extends ReactiveElement {
   }
 
   _runCondition(condition, value) {
+    const typedValue = typeof condition.value === 'string' ? String(value) : Number(value);
+
     switch (condition.type) {
       case 'eq':
-        return value === condition.value;
+        return typedValue === condition.value;
       case 'ne':
-        return value !== condition.value;
+        return typedValue !== condition.value;
       case 'lt':
-        return value < condition.value;
+        return typedValue < condition.value;
       case 'gt':
-        return value > condition.value;
+        return typedValue > condition.value;
       case 'lte':
-        return value <= condition.value;
+        return typedValue <= condition.value;
       case 'gte':
-        return value >= condition.value;
-      case 'includes':
-        return value.includes(condition.value);
-      case 'excludes':
-        return !value.includes(condition.value);
+        return typedValue >= condition.value;
       default:
         return false;
     }
