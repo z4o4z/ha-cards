@@ -1,6 +1,6 @@
-import { css, html, ReactiveElement } from 'https://unpkg.com/lit-element@3.3.3/lit-element.js?module';
+import { css, html, LitElement } from 'https://unpkg.com/lit-element@3.3.3/lit-element.js?module';
 
-class NotificationsCard extends ReactiveElement {
+class NotificationsCard extends LitElement {
   static get properties() {
     return {
       hass: {},
