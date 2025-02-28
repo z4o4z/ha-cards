@@ -1,0 +1,8 @@
+{
+  "lovelace-home-feed-card": {
+    "version": "0.2.9",
+    "remote_location": "https://raw.githubusercontent.com/z4o4z/ha-cards/master/notifications.card.js",
+    "visit_repo": "https://github.com/z4o4z/ha-cards",
+    "changelog": "https://github.com/z4o4z/ha-cards"
+  }
+}
